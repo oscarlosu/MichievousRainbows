@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: 6c815c75e4ab47b4fb9bcb5b376791e7
+timeCreated: 1479575806
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<!-- Created
+    with Inkscape (http://www.inkscape.org/) -->\n\n<svg\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n
+    \  xmlns:cc=\"http://creativecommons.org/ns#\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n
+    \  xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n
+    \  xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n
+    \  width=\"205\"\n   height=\"195\"\n   viewBox=\"0 0 205 195\"\n   id=\"svg2\"\n
+    \  version=\"1.1\"\n   inkscape:version=\"0.91 r13725\"\n   sodipodi:docname=\"star.svg\">\n
+    \ <defs\n     id=\"defs4\" />\n  <sodipodi:namedview\n     id=\"base\"\n     pagecolor=\"#ffffff\"\n
+    \    bordercolor=\"#666666\"\n     borderopacity=\"1.0\"\n     inkscape:pageopacity=\"0.0\"\n
+    \    inkscape:pageshadow=\"2\"\n     inkscape:zoom=\"1.979899\"\n     inkscape:cx=\"278.02692\"\n
+    \    inkscape:cy=\"140.145\"\n     inkscape:document-units=\"px\"\n     inkscape:current-layer=\"layer1\"\n
+    \    showgrid=\"false\"\n     units=\"px\"\n     inkscape:window-width=\"1920\"\n
+    \    inkscape:window-height=\"1017\"\n     inkscape:window-x=\"873\"\n     inkscape:window-y=\"-8\"\n
+    \    inkscape:window-maximized=\"1\" />\n  <metadata\n     id=\"metadata7\">\n
+    \   <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n
+    \       <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"
+    />\n        <dc:title></dc:title>\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n
+    \ <g\n     inkscape:label=\"Layer 1\"\n     inkscape:groupmode=\"layer\"\n     id=\"layer1\"\n
+    \    transform=\"translate(0,-857.36216)\">\n    <path\n       sodipodi:type=\"star\"\n
+    \      style=\"fill:#ff2a2a;stroke:#d40000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none\"\n
+    \      id=\"path4136\"\n       sodipodi:sides=\"5\"\n       sodipodi:cx=\"272.85715\"\n
+    \      sodipodi:cy=\"368.07648\"\n       sodipodi:r1=\"102.0704\"\n       sodipodi:r2=\"51.035202\"\n
+    \      sodipodi:arg1=\"0.78539816\"\n       sodipodi:arg2=\"1.4137167\"\n       inkscape:flatsided=\"false\"\n
+    \      inkscape:rounded=\"0\"\n       inkscape:randomized=\"0\"\n       d=\"m
+    345.03182,440.25115 -64.19101,-21.7678 -54.32265,40.53852 0.86629,-67.7759 -55.34104,-39.13682
+    64.7264,-20.12001 20.12001,-64.7264 39.13682,55.34104 67.7759,-0.86629 -40.53852,54.32265
+    z\"\n       inkscape:transform-center-x=\"-0.042651881\"\n       inkscape:transform-center-y=\"-9.7062857\"\n
+    \      transform=\"matrix(0.98747591,0.15776986,-0.15776986,0.98747591,-108.96647,558.61466)\"
+    />\n  </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

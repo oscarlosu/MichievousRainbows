@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35648741dd5b14baa82bec08abfe7457, type: 3}
+  m_Name: star
+  m_EditorClassIdentifier: 
+  _lastTimeModified: 636151753966534867
+  _documentAsset: {fileID: 114223329548388162}
+  _sharedMesh: {fileID: 43612742574056392}
+  _antialiasing: 0
+  _antialiasingWidth: 0
+  _generateCollider: 0
+  _keepSVGFile: 1
+  _ignoreSVGCanvas: 1
+  _colliderShape: []
+  _format: 0
+  _useGradients: 1
+  _meshCompression: 0
+  _optimizeMesh: 1
+  _generateNormals: 0
+  _generateTangents: 0
+  _scale: 0.01
+  _vpm: 1000
+  _depthOffset: 0
+  _compressDepth: 1
+  _pivotPoint: {x: 0.5, y: 0.5}
+  _customPivotPoint: 0
+  _border: {x: 0, y: 0, z: 0, w: 0}
+  _sliceMesh: 0
+  _sharedGradients: []
+  _sharedShaders:
+  - SVG Importer/SolidColor/SolidColorOpaque
+  _canvasRectangle:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2.05
+    height: 1.9499999
+  _layers: []
+--- !u!43 &43612742574056392
+Mesh:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: star
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 87
+    topology: 0
+    firstVertex: 0
+    vertexCount: 31
+    localAABB:
+      m_Center: {x: 0, y: 0.000000029802322, z: -0}
+      m_Extent: {x: 1.0244701, y: 0.97476006, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 0000010002000100030002000400030001000400050003000600050004000700050006000500070008000600090007000a000b000c000b000a000d000b000e000c000e000b000f0010001100120010001300110010001400130015001400100015001600140015001700160018001700150018000a0017000a0018000d0011001900120019001a001b001a00190011001b001c0019001d001c001b001d001e001c000e001e001d001e000e000f00
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 5
+    m_VertexCount: 31
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 2
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 496
+    _typelessdata: 6c2f193f98d36dbf00000080ff2a2aff006c95ba24df1cbf00000080ff2a2affe82bf83e908785be00000080ff2a2aff1a81783f0cc0583e00000080ff2a2affe0fd19bf6e696dbf00000080ff2a2aff14a4993e92bd9e3e00000080ff2a2aff3edaf8be8cda84be00000080ff2a2aff908899be0e299f3e00000080ff2a2aff00c8733ac0136b3f00000080ff2a2aff638478bfe06e5b3e00000080ff2a2affc3c56abf1c7e493e00000080d40000ffbe05a2beacdeaa3e00000080d40000ffb40c91be2072933e00000080d40000ffd62183bf40626d3e00000080d40000ff00d05e3a9f9d5c3f00000080d40000ff0010833ae189793f00000080d40000ff00ac9aba8a1a24bf00000080d40000ff38b4103ffc1d62bf00000080d40000ff4cab213fe08979bf00000080d40000ff005c2c3c243617bf00000080d40000ff008091ba6aa415bf00000080d40000ff9a8122bf241979bf00000080d40000ff7e7911bf0eb961bf00000080d40000ff5818ebbe886780be00000080d40000ffbb4e03bf904d89be00000080d40000fff0f4023fc0038abe00000080d40000ff9c6cea3e100a81be00000080d40000ff8cbe6a3f60f1463e00000080d40000ffd621833f1c8c6a3e00000080d40000ff5c20913e840e933e00000080d40000ffd027a23ef46daa3e00000080d40000ff
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.000000029802322, z: -0}
+    m_Extent: {x: 1.0244701, y: 0.97476006, z: 0}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
+--- !u!114 &114223329548388162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363e9872ad27a4ca59c07d233fdf0023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _errors: 
+  _svgFile: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<!-- Created
+    with Inkscape (http://www.inkscape.org/) -->\n\n<svg\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n
+    \  xmlns:cc=\"http://creativecommons.org/ns#\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n
+    \  xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n
+    \  xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\n
+    \  width=\"205\"\n   height=\"195\"\n   viewBox=\"0 0 205 195\"\n   id=\"svg2\"\n
+    \  version=\"1.1\"\n   inkscape:version=\"0.91 r13725\"\n   sodipodi:docname=\"star.svg\">\n
+    \ <defs\n     id=\"defs4\" />\n  <sodipodi:namedview\n     id=\"base\"\n     pagecolor=\"#ffffff\"\n
+    \    bordercolor=\"#666666\"\n     borderopacity=\"1.0\"\n     inkscape:pageopacity=\"0.0\"\n
+    \    inkscape:pageshadow=\"2\"\n     inkscape:zoom=\"1.979899\"\n     inkscape:cx=\"278.02692\"\n
+    \    inkscape:cy=\"140.145\"\n     inkscape:document-units=\"px\"\n     inkscape:current-layer=\"layer1\"\n
+    \    showgrid=\"false\"\n     units=\"px\"\n     inkscape:window-width=\"1920\"\n
+    \    inkscape:window-height=\"1017\"\n     inkscape:window-x=\"873\"\n     inkscape:window-y=\"-8\"\n
+    \    inkscape:window-maximized=\"1\" />\n  <metadata\n     id=\"metadata7\">\n
+    \   <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n
+    \       <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"
+    />\n        <dc:title></dc:title>\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n
+    \ <g\n     inkscape:label=\"Layer 1\"\n     inkscape:groupmode=\"layer\"\n     id=\"layer1\"\n
+    \    transform=\"translate(0,-857.36216)\">\n    <path\n       sodipodi:type=\"star\"\n
+    \      style=\"fill:#ff2a2a;stroke:#d40000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none\"\n
+    \      id=\"path4136\"\n       sodipodi:sides=\"5\"\n       sodipodi:cx=\"272.85715\"\n
+    \      sodipodi:cy=\"368.07648\"\n       sodipodi:r1=\"102.0704\"\n       sodipodi:r2=\"51.035202\"\n
+    \      sodipodi:arg1=\"0.78539816\"\n       sodipodi:arg2=\"1.4137167\"\n       inkscape:flatsided=\"false\"\n
+    \      inkscape:rounded=\"0\"\n       inkscape:randomized=\"0\"\n       d=\"m
+    345.03182,440.25115 -64.19101,-21.7678 -54.32265,40.53852 0.86629,-67.7759 -55.34104,-39.13682
+    64.7264,-20.12001 20.12001,-64.7264 39.13682,55.34104 67.7759,-0.86629 -40.53852,54.32265
+    z\"\n       inkscape:transform-center-x=\"-0.042651881\"\n       inkscape:transform-center-y=\"-9.7062857\"\n
+    \      transform=\"matrix(0.98747591,0.15776986,-0.15776986,0.98747591,-108.96647,558.61466)\"
+    />\n  </g>\n</svg>\n"
+  _title: 
+  _description: 
