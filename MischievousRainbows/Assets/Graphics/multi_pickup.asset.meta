@@ -1,0 +1,82 @@
+fileFormatVersion: 2
+guid: 61670ec88e61c354ea9c91cc416eae87
+timeCreated: 1479578849
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!--
+    Created with Inkscape (http://www.inkscape.org/) -->\r\n\r\n<svg\r\n   xmlns:osb=\"http://www.openswatchbook.org/uri/2009/osb\"\r\n
+    \  xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n   xmlns:cc=\"http://creativecommons.org/ns#\"\r\n
+    \  xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\r\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\r\n
+    \  xmlns=\"http://www.w3.org/2000/svg\"\r\n   xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n
+    \  xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\r\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\r\n
+    \  width=\"512\"\r\n   height=\"512\"\r\n   viewBox=\"0 0 512.00001 512.00001\"\r\n
+    \  id=\"svg3336\"\r\n   version=\"1.1\"\r\n   inkscape:version=\"0.91 r13725\"\r\n
+    \  sodipodi:docname=\"multi_pickup.svg\">\r\n  <defs\r\n     id=\"defs3338\">\r\n
+    \   <linearGradient\r\n       id=\"linearGradient10379-8\"\r\n       inkscape:collect=\"always\">\r\n
+    \     <stop\r\n         id=\"stop10989\"\r\n         offset=\"0\"\r\n         style=\"stop-color:#12abcf;stop-opacity:1;\"
+    />\r\n      <stop\r\n         id=\"stop10991\"\r\n         offset=\"1\"\r\n         style=\"stop-color:#ed00da;stop-opacity:0\"
+    />\r\n    </linearGradient>\r\n    <marker\r\n       inkscape:stockid=\"Tail\"\r\n
+    \      orient=\"auto\"\r\n       refY=\"0.0\"\r\n       refX=\"0.0\"\r\n       id=\"Tail\"\r\n
+    \      style=\"overflow:visible\"\r\n       inkscape:isstock=\"true\">\r\n      <g\r\n
+    \        id=\"g5739\"\r\n         transform=\"scale(-1.2)\"\r\n         style=\"stroke:none;stroke-opacity:1;fill:#12abcf;fill-opacity:1\">\r\n
+    \       <path\r\n           id=\"path5741\"\r\n           d=\"M -3.8048674,-3.9585227
+    L 0.54352094,0\"\r\n           style=\"fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1\"
+    />\r\n        <path\r\n           id=\"path5743\"\r\n           d=\"M -1.2866832,-3.9585227
+    L 3.0617053,0\"\r\n           style=\"fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1\"
+    />\r\n        <path\r\n           id=\"path5745\"\r\n           d=\"M 1.3053582,-3.9585227
+    L 5.6537466,0\"\r\n           style=\"fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1\"
+    />\r\n        <path\r\n           id=\"path5747\"\r\n           d=\"M -3.8048674,4.1775838
+    L 0.54352094,0.21974226\"\r\n           style=\"fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1\"
+    />\r\n        <path\r\n           id=\"path5749\"\r\n           d=\"M -1.2866832,4.1775838
+    L 3.0617053,0.21974226\"\r\n           style=\"fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1\"
+    />\r\n        <path\r\n           id=\"path5751\"\r\n           d=\"M 1.3053582,4.1775838
+    L 5.6537466,0.21974226\"\r\n           style=\"fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1\"
+    />\r\n      </g>\r\n    </marker>\r\n    <marker\r\n       inkscape:stockid=\"Arrow1Lend\"\r\n
+    \      orient=\"auto\"\r\n       refY=\"0.0\"\r\n       refX=\"0.0\"\r\n       id=\"Arrow1Lend\"\r\n
+    \      style=\"overflow:visible;\"\r\n       inkscape:isstock=\"true\">\r\n      <path\r\n
+    \        id=\"path5706\"\r\n         d=\"M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0
+    L 0.0,0.0 z \"\r\n         style=\"fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1;fill:#ff8897;fill-opacity:1\"\r\n
+    \        transform=\"scale(0.8) rotate(180) translate(12.5,0)\" />\r\n    </marker>\r\n
+    \   <linearGradient\r\n       id=\"linearGradient4249\"\r\n       osb:paint=\"solid\">\r\n
+    \     <stop\r\n         style=\"stop-color:#000000;stop-opacity:1;\"\r\n         offset=\"0\"\r\n
+    \        id=\"stop4251\" />\r\n    </linearGradient>\r\n    <linearGradient\r\n
+    \      id=\"linearGradient4235\"\r\n       osb:paint=\"solid\">\r\n      <stop\r\n
+    \        style=\"stop-color:#548897;stop-opacity:1;\"\r\n         offset=\"0\"\r\n
+    \        id=\"stop4237\" />\r\n    </linearGradient>\r\n    <inkscape:perspective\r\n
+    \      sodipodi:type=\"inkscape:persp3d\"\r\n       inkscape:vp_x=\"0 : 256 :
+    1\"\r\n       inkscape:vp_y=\"0 : 1000 : 0\"\r\n       inkscape:vp_z=\"512.00001
+    : 256 : 1\"\r\n       inkscape:persp3d-origin=\"256 : 170.66667 : 1\"\r\n       id=\"perspective3369\"
+    />\r\n    <linearGradient\r\n       inkscape:collect=\"always\"\r\n       xlink:href=\"#linearGradient10379-8\"\r\n
+    \      id=\"linearGradient10385\"\r\n       x1=\"46.447964\"\r\n       y1=\"799.11121\"\r\n
+    \      x2=\"618.48151\"\r\n       y2=\"903.74768\"\r\n       gradientUnits=\"userSpaceOnUse\"\r\n
+    \      gradientTransform=\"translate(-50.482509,0.9178638)\" />\r\n  </defs>\r\n
+    \ <sodipodi:namedview\r\n     id=\"base\"\r\n     pagecolor=\"#ffffff\"\r\n     bordercolor=\"#666666\"\r\n
+    \    borderopacity=\"0\"\r\n     inkscape:pageopacity=\"0\"\r\n     inkscape:pageshadow=\"2\"\r\n
+    \    inkscape:zoom=\"1.0894863\"\r\n     inkscape:cx=\"388.62962\"\r\n     inkscape:cy=\"243.98056\"\r\n
+    \    inkscape:document-units=\"px\"\r\n     inkscape:current-layer=\"layer2\"\r\n
+    \    showgrid=\"false\"\r\n     units=\"px\"\r\n     inkscape:showpageshadow=\"false\"\r\n
+    \    inkscape:window-width=\"1536\"\r\n     inkscape:window-height=\"801\"\r\n
+    \    inkscape:window-x=\"-8\"\r\n     inkscape:window-y=\"-8\"\r\n     inkscape:window-maximized=\"1\"
+    />\r\n  <metadata\r\n     id=\"metadata3341\">\r\n    <rdf:RDF>\r\n      <cc:Work\r\n
+    \        rdf:about=\"\">\r\n        <dc:format>image/svg+xml</dc:format>\r\n        <dc:type\r\n
+    \          rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\r\n        <dc:title></dc:title>\r\n
+    \     </cc:Work>\r\n    </rdf:RDF>\r\n  </metadata>\r\n  <g\r\n     inkscape:groupmode=\"layer\"\r\n
+    \    id=\"layer2\"\r\n     inkscape:label=\"Layer 2\"\r\n     style=\"display:none\">\r\n
+    \   <g\r\n       transform=\"translate(0,-540.36216)\"\r\n       id=\"g3407\">\r\n
+    \     <path\r\n         sodipodi:nodetypes=\"ccc\"\r\n         inkscape:connector-curvature=\"0\"\r\n
+    \        id=\"path3344\"\r\n         d=\"M 257.68036,597.54876 79.287035,894.29237
+    257.95509,1020.0217\"\r\n         style=\"fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\"
+    />\r\n      <path\r\n         sodipodi:nodetypes=\"ccc\"\r\n         inkscape:connector-curvature=\"0\"\r\n
+    \        id=\"path3344-3\"\r\n         d=\"M 257.66362,597.53392 436.21254,894.2486
+    257.54449,1019.9779\"\r\n         style=\"fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\"
+    />\r\n    </g>\r\n  </g>\r\n  <g\r\n     inkscape:label=\"Layer 1\"\r\n     inkscape:groupmode=\"layer\"\r\n
+    \    id=\"layer1\"\r\n     transform=\"translate(0,-540.36216)\">\r\n    <path\r\n
+    \      style=\"opacity:1;fill:url(#linearGradient10385);fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Tail)\"\r\n
+    \      d=\"M 99.134871,973.01393 C 42.391691,933.03394 -4.0345458,899.8655 -4.0345458,899.30628
+    c 0,-1.99027 207.3595258,-345.54089 208.0914458,-344.76326 0.41002,0.43563 46.79227,77.2747
+    103.07167,170.75351 56.2794,93.47881 102.97088,170.94445 103.75882,172.14587 1.35759,2.06994
+    -3.99658,6.00136 -102.18914,75.03473 -56.99197,40.06777 -104.24552,72.93537 -105.00786,73.03907
+    -0.76236,0.1034 -47.81234,-32.5222 -104.555519,-72.50227 z\"\r\n       id=\"path3433\"\r\n
+    \      inkscape:connector-curvature=\"0\" />\r\n  </g>\r\n</svg>\r\n"
+  assetBundleName: 
+  assetBundleVariant: 

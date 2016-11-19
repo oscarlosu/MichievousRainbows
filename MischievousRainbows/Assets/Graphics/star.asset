@@ -11,9 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35648741dd5b14baa82bec08abfe7457, type: 3}
   m_Name: star
   m_EditorClassIdentifier: 
-  _lastTimeModified: 636151753966534867
+  _lastTimeModified: 636151757199674433
   _documentAsset: {fileID: 114223329548388162}
-  _sharedMesh: {fileID: 43612742574056392}
+  _sharedMesh: {fileID: 43885079852004962}
   _antialiasing: 0
   _antialiasingWidth: 0
   _generateCollider: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     width: 2.05
     height: 1.9499999
   _layers: []
---- !u!43 &43612742574056392
+--- !u!43 &43885079852004962
 Mesh:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

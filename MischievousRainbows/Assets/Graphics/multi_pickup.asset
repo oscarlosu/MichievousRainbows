@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35648741dd5b14baa82bec08abfe7457, type: 3}
+  m_Name: multi_pickup
+  m_EditorClassIdentifier: 
+  _lastTimeModified: 636151757249884207
+  _documentAsset: {fileID: 114313426396318796}
+  _sharedMesh: {fileID: 43798526289577882}
+  _antialiasing: 0
+  _antialiasingWidth: 0
+  _generateCollider: 0
+  _keepSVGFile: 1
+  _ignoreSVGCanvas: 1
+  _colliderShape: []
+  _format: 1
+  _useGradients: 1
+  _meshCompression: 0
+  _optimizeMesh: 1
+  _generateNormals: 0
+  _generateTangents: 0
+  _scale: 0.01
+  _vpm: 1000
+  _depthOffset: 0
+  _compressDepth: 1
+  _pivotPoint: {x: 0.5, y: 0.5}
+  _customPivotPoint: 0
+  _border: {x: 0, y: 0, z: 0, w: 0}
+  _sliceMesh: 0
+  _sharedGradients:
+  - colorKeys:
+    - time: 1
+      color:
+        serializedVersion: 2
+        rgba: 4294967295
+    - time: 0
+      color:
+        serializedVersion: 2
+        rgba: 4294967295
+    alphaKeys:
+    - time: 1
+      alpha: 1
+    - time: 0
+      alpha: 1
+    _hash: GC999FFFFFFC000FFFFFFA999999A000999
+    index: 0
+    atlasIndex: 0
+    references: 0
+  - colorKeys:
+    - time: 1
+      color:
+        serializedVersion: 2
+        rgba: 14287085
+    - time: 0
+      color:
+        serializedVersion: 2
+        rgba: 4291799826
+    alphaKeys:
+    - time: 1
+      alpha: 0
+    - time: 0
+      alpha: 1
+    _hash: GC999ED00DAC00012ABCFA999000A000999
+    index: 1
+    atlasIndex: 0
+    references: 0
+  _sharedShaders:
+  - SVG Importer/GradientColor/GradientColorAlphaBlended
+  _canvasRectangle:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 5.12
+    height: 5.12
+  _layers: []
+--- !u!43 &43798526289577882
+Mesh:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: multi_pickup
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 42
+    topology: 0
+    firstVertex: 0
+    vertexCount: 16
+    localAABB:
+      m_Center: {x: 0, y: 0, z: -0}
+      m_Extent: {x: 2.07538, y: 2.45487, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 0000010002000300010000000400010003000500010004000600010005000700010006000800010007000900010008000a00010009000b0001000a000c0001000b000c000d0001000e000d000c000d000e000f00
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 29
+    m_VertexCount: 16
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 2
+      dimension: 4
+    - stream: 0
+      offset: 16
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 512
+    _typelessdata: d3fb004082f184bf00000080ffffffff325f393fa2920c3f0000803f0000000007d304401c777abf00000080ffffffff4b7e3b3f237d093f0000803f00000000bf6504402ced7dbf00000080ffffffffc54f3b3f8b200a3f0000803f00000000c45ad03f0cd2a8bf00000080ffffffffbbce2a3fd5c71b3f0000803f00000000f8a5863f6ebbdcbf00000080ffffffffa115153f70e7313f0000803f0000000000d0a13e77540fc000000080ffffffff2398f23e86094e3f0000803f0000000000c8f33a971c1dc000000080ffffffffa2cbda3ed3d9593f0000803f00000000d0efadbdc57c19c000000080ffffffffb461d23e0816583f0000803f000000006e5b24bfa1c300c000000080ffffffff81039c3e48c54b3f0000803f00000000f89785bf6a6bddbf00000080ffffffff2583693e86bc423f0000803f00000000b7dbe2bf52539bbf00000080ffffffff6ce2b53dce25323f0000803f0000000007d304c034267ebf00000080ffffffffc0a6fb3c99fd2a3f0000803f00000000f229e0bf00a0e3be00000080ffffffffd1738c3d4aaf103f0000803f00000000e06b9f3eed99f93f00000080ffffffff72d1af3e9a36c53d0000803f00000000443aa5be490cf63f00000080ffffffff11af723edb02f73d0000803f0000000000e0b43b971c1d4000000080ffffffffc8548d3efec8a63c0000803f00000000
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: -0}
+    m_Extent: {x: 2.07538, y: 2.45487, z: 0}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
+--- !u!114 &114313426396318796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363e9872ad27a4ca59c07d233fdf0023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _errors: 
+  _svgFile: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!--
+    Created with Inkscape (http://www.inkscape.org/) -->\r\n\r\n<svg\r\n   xmlns:osb=\"http://www.openswatchbook.org/uri/2009/osb\"\r\n
+    \  xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n   xmlns:cc=\"http://creativecommons.org/ns#\"\r\n
+    \  xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\r\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\r\n
+    \  xmlns=\"http://www.w3.org/2000/svg\"\r\n   xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n
+    \  xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\r\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\r\n
+    \  width=\"512\"\r\n   height=\"512\"\r\n   viewBox=\"0 0 512.00001 512.00001\"\r\n
+    \  id=\"svg3336\"\r\n   version=\"1.1\"\r\n   inkscape:version=\"0.91 r13725\"\r\n
+    \  sodipodi:docname=\"multi_pickup.svg\">\r\n  <defs\r\n     id=\"defs3338\">\r\n
+    \   <linearGradient\r\n       id=\"linearGradient10379-8\"\r\n       inkscape:collect=\"always\">\r\n
+    \     <stop\r\n         id=\"stop10989\"\r\n         offset=\"0\"\r\n         style=\"stop-color:#12abcf;stop-opacity:1;\"
+    />\r\n      <stop\r\n         id=\"stop10991\"\r\n         offset=\"1\"\r\n         style=\"stop-color:#ed00da;stop-opacity:0\"
+    />\r\n    </linearGradient>\r\n    <marker\r\n       inkscape:stockid=\"Tail\"\r\n
+    \      orient=\"auto\"\r\n       refY=\"0.0\"\r\n       refX=\"0.0\"\r\n       id=\"Tail\"\r\n
+    \      style=\"overflow:visible\"\r\n       inkscape:isstock=\"true\">\r\n      <g\r\n
+    \        id=\"g5739\"\r\n         transform=\"scale(-1.2)\"\r\n         style=\"stroke:none;stroke-opacity:1;fill:#12abcf;fill-opacity:1\">\r\n
+    \       <path\r\n           id=\"path5741\"\r\n           d=\"M -3.8048674,-3.9585227
+    L 0.54352094,0\"\r\n           style=\"fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1\"
+    />\r\n        <path\r\n           id=\"path5743\"\r\n           d=\"M -1.2866832,-3.9585227
+    L 3.0617053,0\"\r\n           style=\"fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1\"
+    />\r\n        <path\r\n           id=\"path5745\"\r\n           d=\"M 1.3053582,-3.9585227
+    L 5.6537466,0\"\r\n           style=\"fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1\"
+    />\r\n        <path\r\n           id=\"path5747\"\r\n           d=\"M -3.8048674,4.1775838
+    L 0.54352094,0.21974226\"\r\n           style=\"fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1\"
+    />\r\n        <path\r\n           id=\"path5749\"\r\n           d=\"M -1.2866832,4.1775838
+    L 3.0617053,0.21974226\"\r\n           style=\"fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1\"
+    />\r\n        <path\r\n           id=\"path5751\"\r\n           d=\"M 1.3053582,4.1775838
+    L 5.6537466,0.21974226\"\r\n           style=\"fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1\"
+    />\r\n      </g>\r\n    </marker>\r\n    <marker\r\n       inkscape:stockid=\"Arrow1Lend\"\r\n
+    \      orient=\"auto\"\r\n       refY=\"0.0\"\r\n       refX=\"0.0\"\r\n       id=\"Arrow1Lend\"\r\n
+    \      style=\"overflow:visible;\"\r\n       inkscape:isstock=\"true\">\r\n      <path\r\n
+    \        id=\"path5706\"\r\n         d=\"M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0
+    L 0.0,0.0 z \"\r\n         style=\"fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1;fill:#ff8897;fill-opacity:1\"\r\n
+    \        transform=\"scale(0.8) rotate(180) translate(12.5,0)\" />\r\n    </marker>\r\n
+    \   <linearGradient\r\n       id=\"linearGradient4249\"\r\n       osb:paint=\"solid\">\r\n
+    \     <stop\r\n         style=\"stop-color:#000000;stop-opacity:1;\"\r\n         offset=\"0\"\r\n
+    \        id=\"stop4251\" />\r\n    </linearGradient>\r\n    <linearGradient\r\n
+    \      id=\"linearGradient4235\"\r\n       osb:paint=\"solid\">\r\n      <stop\r\n
+    \        style=\"stop-color:#548897;stop-opacity:1;\"\r\n         offset=\"0\"\r\n
+    \        id=\"stop4237\" />\r\n    </linearGradient>\r\n    <inkscape:perspective\r\n
+    \      sodipodi:type=\"inkscape:persp3d\"\r\n       inkscape:vp_x=\"0 : 256 :
+    1\"\r\n       inkscape:vp_y=\"0 : 1000 : 0\"\r\n       inkscape:vp_z=\"512.00001
+    : 256 : 1\"\r\n       inkscape:persp3d-origin=\"256 : 170.66667 : 1\"\r\n       id=\"perspective3369\"
+    />\r\n    <linearGradient\r\n       inkscape:collect=\"always\"\r\n       xlink:href=\"#linearGradient10379-8\"\r\n
+    \      id=\"linearGradient10385\"\r\n       x1=\"46.447964\"\r\n       y1=\"799.11121\"\r\n
+    \      x2=\"618.48151\"\r\n       y2=\"903.74768\"\r\n       gradientUnits=\"userSpaceOnUse\"\r\n
+    \      gradientTransform=\"translate(-50.482509,0.9178638)\" />\r\n  </defs>\r\n
+    \ <sodipodi:namedview\r\n     id=\"base\"\r\n     pagecolor=\"#ffffff\"\r\n     bordercolor=\"#666666\"\r\n
+    \    borderopacity=\"0\"\r\n     inkscape:pageopacity=\"0\"\r\n     inkscape:pageshadow=\"2\"\r\n
+    \    inkscape:zoom=\"1.0894863\"\r\n     inkscape:cx=\"388.62962\"\r\n     inkscape:cy=\"243.98056\"\r\n
+    \    inkscape:document-units=\"px\"\r\n     inkscape:current-layer=\"layer2\"\r\n
+    \    showgrid=\"false\"\r\n     units=\"px\"\r\n     inkscape:showpageshadow=\"false\"\r\n
+    \    inkscape:window-width=\"1536\"\r\n     inkscape:window-height=\"801\"\r\n
+    \    inkscape:window-x=\"-8\"\r\n     inkscape:window-y=\"-8\"\r\n     inkscape:window-maximized=\"1\"
+    />\r\n  <metadata\r\n     id=\"metadata3341\">\r\n    <rdf:RDF>\r\n      <cc:Work\r\n
+    \        rdf:about=\"\">\r\n        <dc:format>image/svg+xml</dc:format>\r\n        <dc:type\r\n
+    \          rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\r\n        <dc:title></dc:title>\r\n
+    \     </cc:Work>\r\n    </rdf:RDF>\r\n  </metadata>\r\n  <g\r\n     inkscape:groupmode=\"layer\"\r\n
+    \    id=\"layer2\"\r\n     inkscape:label=\"Layer 2\"\r\n     style=\"display:none\">\r\n
+    \   <g\r\n       transform=\"translate(0,-540.36216)\"\r\n       id=\"g3407\">\r\n
+    \     <path\r\n         sodipodi:nodetypes=\"ccc\"\r\n         inkscape:connector-curvature=\"0\"\r\n
+    \        id=\"path3344\"\r\n         d=\"M 257.68036,597.54876 79.287035,894.29237
+    257.95509,1020.0217\"\r\n         style=\"fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\"
+    />\r\n      <path\r\n         sodipodi:nodetypes=\"ccc\"\r\n         inkscape:connector-curvature=\"0\"\r\n
+    \        id=\"path3344-3\"\r\n         d=\"M 257.66362,597.53392 436.21254,894.2486
+    257.54449,1019.9779\"\r\n         style=\"fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\"
+    />\r\n    </g>\r\n  </g>\r\n  <g\r\n     inkscape:label=\"Layer 1\"\r\n     inkscape:groupmode=\"layer\"\r\n
+    \    id=\"layer1\"\r\n     transform=\"translate(0,-540.36216)\">\r\n    <path\r\n
+    \      style=\"opacity:1;fill:url(#linearGradient10385);fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Tail)\"\r\n
+    \      d=\"M 99.134871,973.01393 C 42.391691,933.03394 -4.0345458,899.8655 -4.0345458,899.30628
+    c 0,-1.99027 207.3595258,-345.54089 208.0914458,-344.76326 0.41002,0.43563 46.79227,77.2747
+    103.07167,170.75351 56.2794,93.47881 102.97088,170.94445 103.75882,172.14587 1.35759,2.06994
+    -3.99658,6.00136 -102.18914,75.03473 -56.99197,40.06777 -104.24552,72.93537 -105.00786,73.03907
+    -0.76236,0.1034 -47.81234,-32.5222 -104.555519,-72.50227 z\"\r\n       id=\"path3433\"\r\n
+    \      inkscape:connector-curvature=\"0\" />\r\n  </g>\r\n</svg>\r\n"
+  _title: 
+  _description: 
