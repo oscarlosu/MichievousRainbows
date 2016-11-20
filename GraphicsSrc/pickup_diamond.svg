@@ -29,16 +29,16 @@
          style="stop-color:#fd0163;stop-opacity:0.99215686" />
       <stop
          style="stop-color:#ff0061;stop-opacity:1"
-         offset="0.31402823"
+         offset="0.08017142"
          id="stop3357" />
       <stop
          id="stop3359"
-         offset="0.71998441"
-         style="stop-color:#9bfcd3;stop-opacity:0.48627451" />
+         offset="0.60238791"
+         style="stop-color:#9bfcd3;stop-opacity:1" />
       <stop
          id="stop10991"
          offset="1"
-         style="stop-color:#3fafd2;stop-opacity:0.49019608" />
+         style="stop-color:#3fafd2;stop-opacity:1" />
     </linearGradient>
     <marker
        inkscape:stockid="Tail"
@@ -119,10 +119,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient10379-8"
        id="linearGradient10385"
-       x1="5.5071859"
-       y1="778.83875"
-       x2="476.37131"
-       y2="926.61481"
+       x1="129.48074"
+       y1="676.48853"
+       x2="474.92972"
+       y2="1033.2898"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(11.932227,-2.7536318)" />
   </defs>
@@ -133,9 +133,9 @@
      borderopacity="0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.54474315"
-     inkscape:cx="104.31399"
-     inkscape:cy="90.945166"
+     inkscape:zoom="0.34684818"
+     inkscape:cx="464.03425"
+     inkscape:cy="180.83855"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -154,7 +154,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
