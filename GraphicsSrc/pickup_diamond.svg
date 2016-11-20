@@ -17,7 +17,7 @@
    id="svg3336"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="multi_pickup.svg">
+   sodipodi:docname="pickup_diamond.svg">
   <defs
      id="defs3338">
     <linearGradient
@@ -26,11 +26,19 @@
       <stop
          id="stop10989"
          offset="0"
-         style="stop-color:#12abcf;stop-opacity:1;" />
+         style="stop-color:#fd0163;stop-opacity:0.99215686" />
+      <stop
+         style="stop-color:#ff0061;stop-opacity:1"
+         offset="0.31402823"
+         id="stop3357" />
+      <stop
+         id="stop3359"
+         offset="0.71998441"
+         style="stop-color:#9bfcd3;stop-opacity:0.48627451" />
       <stop
          id="stop10991"
          offset="1"
-         style="stop-color:#ed00da;stop-opacity:0" />
+         style="stop-color:#3fafd2;stop-opacity:0.49019608" />
     </linearGradient>
     <marker
        inkscape:stockid="Tail"
@@ -43,31 +51,31 @@
       <g
          id="g5739"
          transform="scale(-1.2)"
-         style="stroke:none;stroke-opacity:1;fill:#12abcf;fill-opacity:1">
+         style="stroke:none;stroke-opacity:1;fill:#fd0163;fill-opacity:1">
         <path
            id="path5741"
            d="M -3.8048674,-3.9585227 L 0.54352094,0"
-           style="fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+           style="fill:#fd0163;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
         <path
            id="path5743"
            d="M -1.2866832,-3.9585227 L 3.0617053,0"
-           style="fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+           style="fill:#fd0163;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
         <path
            id="path5745"
            d="M 1.3053582,-3.9585227 L 5.6537466,0"
-           style="fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+           style="fill:#fd0163;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
         <path
            id="path5747"
            d="M -3.8048674,4.1775838 L 0.54352094,0.21974226"
-           style="fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+           style="fill:#fd0163;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
         <path
            id="path5749"
            d="M -1.2866832,4.1775838 L 3.0617053,0.21974226"
-           style="fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+           style="fill:#fd0163;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
         <path
            id="path5751"
            d="M 1.3053582,4.1775838 L 5.6537466,0.21974226"
-           style="fill:#12abcf;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+           style="fill:#fd0163;fill-rule:evenodd;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
       </g>
     </marker>
     <marker
@@ -111,12 +119,12 @@
        inkscape:collect="always"
        xlink:href="#linearGradient10379-8"
        id="linearGradient10385"
-       x1="46.447964"
-       y1="799.11121"
-       x2="618.48151"
-       y2="903.74768"
+       x1="5.5071859"
+       y1="778.83875"
+       x2="476.37131"
+       y2="926.61481"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-50.482509,0.9178638)" />
+       gradientTransform="translate(11.932227,-2.7536318)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -125,11 +133,11 @@
      borderopacity="0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0894863"
-     inkscape:cx="388.62962"
-     inkscape:cy="243.98056"
+     inkscape:zoom="0.54474315"
+     inkscape:cx="104.31399"
+     inkscape:cy="90.945166"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:showpageshadow="false"
@@ -179,7 +187,7 @@
      transform="translate(0,-540.36216)">
     <path
        style="opacity:1;fill:url(#linearGradient10385);fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Tail)"
-       d="M 99.134871,973.01393 C 42.391691,933.03394 -4.0345458,899.8655 -4.0345458,899.30628 c 0,-1.99027 207.3595258,-345.54089 208.0914458,-344.76326 0.41002,0.43563 46.79227,77.2747 103.07167,170.75351 56.2794,93.47881 102.97088,170.94445 103.75882,172.14587 1.35759,2.06994 -3.99658,6.00136 -102.18914,75.03473 -56.99197,40.06777 -104.24552,72.93537 -105.00786,73.03907 -0.76236,0.1034 -47.81234,-32.5222 -104.555519,-72.50227 z"
+       d="M 161.54961,969.34241 C 104.80643,929.36242 58.38019,896.19398 58.38019,895.63476 c 0,-1.99027 207.35953,-345.5409 208.09145,-344.7632 0.41002,0.4356 46.79227,77.27464 103.07167,170.75345 56.2794,93.47881 102.97088,170.94445 103.75882,172.14587 1.35759,2.06994 -3.99658,6.00136 -102.18914,75.03473 -56.99197,40.06779 -104.24552,72.93539 -105.00786,73.03909 -0.76236,0.1034 -47.81234,-32.5222 -104.55552,-72.50229 z"
        id="path3433"
        inkscape:connector-curvature="0" />
   </g>
