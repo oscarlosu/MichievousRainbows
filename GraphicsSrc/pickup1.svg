@@ -8,7 +8,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="512"
@@ -17,29 +16,9 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="pickup_ball.svg">
+   sodipodi:docname="pickup1.svg">
   <defs
      id="defs4">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient19646">
-      <stop
-         style="stop-color:#ff00ff;stop-opacity:1"
-         offset="0"
-         id="stop19648" />
-      <stop
-         id="stop19654"
-         offset="0.08102333"
-         style="stop-color:#ff00ff;stop-opacity:1" />
-      <stop
-         style="stop-color:#10acb8;stop-opacity:1;"
-         offset="0.71374881"
-         id="stop19656" />
-      <stop
-         style="stop-color:#10acb8;stop-opacity:1"
-         offset="1"
-         id="stop19650" />
-    </linearGradient>
     <linearGradient
        id="linearGradient18176"
        osb:paint="solid">
@@ -49,7 +28,6 @@
          id="stop18178" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient18142"
        osb:paint="gradient">
       <stop
@@ -69,27 +47,17 @@
          offset="0"
          id="stop18130" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient19646"
-       id="linearGradient19652"
-       x1="92.1875"
-       y1="655.74304"
-       x2="464.84375"
-       y2="775.79962"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,1.2888889,0,-212.60947)" />
   </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
-     borderopacity="1.0"
+     borderopacity="0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.28"
-     inkscape:cx="220.33307"
-     inkscape:cy="304.55597"
+     inkscape:zoom="0.94033032"
+     inkscape:cx="424.80164"
+     inkscape:cy="251.21602"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -99,7 +67,26 @@
      inkscape:window-height="801"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="101.23647,277.8251"
+       orientation="1,0"
+       id="guide4841" />
+    <sodipodi:guide
+       position="134.51375,357.72594"
+       orientation="1,0"
+       id="guide4843" />
+    <sodipodi:guide
+       position="405.37386,355.16028"
+       orientation="1,0"
+       id="guide4845" />
+    <sodipodi:guide
+       position="440.1935,227.61046"
+       orientation="1,0"
+       id="guide4847" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -118,10 +105,17 @@
      id="layer1"
      transform="translate(0,-540.36214)">
     <ellipse
-       style="opacity:1;fill:url(#linearGradient19652);fill-opacity:1;stroke:none;stroke-opacity:1"
+       style="opacity:1;fill:#ffda55;fill-opacity:1;stroke:none;stroke-opacity:1"
        id="path19644"
-       cx="266.01562"
-       cy="735.95587"
+       cx="270.25647"
+       cy="807.10034"
+       rx="169.28665"
+       ry="169.77451" />
+    <ellipse
+       style="opacity:1;fill:#ffbc43;fill-opacity:1;stroke:none;stroke-opacity:1"
+       id="path19644-7"
+       cx="270.13885"
+       cy="840.79285"
        rx="135.54688"
        ry="135.9375" />
   </g>
