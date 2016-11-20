@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35648741dd5b14baa82bec08abfe7457, type: 3}
+  m_Name: main_head
+  m_EditorClassIdentifier: 
+  _lastTimeModified: 636152459114945335
+  _documentAsset: {fileID: 114606012521438594}
+  _sharedMesh: {fileID: 43563565284995504}
+  _antialiasing: 0
+  _antialiasingWidth: 0
+  _generateCollider: 0
+  _keepSVGFile: 1
+  _ignoreSVGCanvas: 1
+  _colliderShape: []
+  _format: 0
+  _useGradients: 1
+  _meshCompression: 0
+  _optimizeMesh: 1
+  _generateNormals: 0
+  _generateTangents: 0
+  _scale: 0.01
+  _vpm: 1000
+  _depthOffset: 0
+  _compressDepth: 1
+  _pivotPoint: {x: 0.5, y: 0.5}
+  _customPivotPoint: 0
+  _border: {x: 0, y: 0, z: 0, w: 0}
+  _sliceMesh: 0
+  _sharedGradients: []
+  _sharedShaders:
+  - SVG Importer/SolidColor/SolidColorOpaque
+  _canvasRectangle:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 5.12
+    height: 5.12
+  _layers: []
+--- !u!43 &43563565284995504
+Mesh:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: main_head
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 198
+    topology: 0
+    firstVertex: 0
+    vertexCount: 68
+    localAABB:
+      m_Center: {x: 0, y: 0, z: -0}
+      m_Extent: {x: 1.0438051, y: 1.1024649, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 0000010002000000030001000400030000000400050003000600050004000600070005000800070006000800090007000a00090008000a000b0009000c000b000a000c000d000b000e000d000c000f000d000e000f0010000d00110010000f001100120010001100130012001400130011001400150013001600150014001600170015001800170016001800190017001a00190018001a001b0019001c001b001a001c001d001b001e001d001c001e001f001d0020001f001e00200021001f002200210020002200230021002400230022002400250023002600250024002600270025002800270026002800290027002a00290028002a002b0029002c002b002a002c002d002b002e002d002c002e002f002d0030002f002e0031002f003000310032002f003300320031003300340032003300350034003600350033003600370035003800370036003800390037003a00390038003a003b0039003c003b003a003c003d003b003e003d003c003e003f003d0040003f003e00400041003f00420041004000410042004300
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 5
+    m_VertexCount: 68
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 2
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1088
+    _typelessdata: bcd51f3f982162bf00000080ee3e3effe4c2453f10b93dbf00000080ee3e3efff8a0333fd0df50bf00000080ee3e3eff6419563f64d128bf00000080ee3e3effe4830a3f645871bf00000080ee3e3eff1c81643fd84c12bf00000080ee3e3eff609ce73e80617ebf00000080ee3e3eff98d8703f40a0f4be00000080ee3e3eff68adb73ec28b84bf00000080ee3e3eff20fd7a3f88fec1be00000080ee3e3eff107f853e38ab88bf00000080ee3e3effaa65813f48ff8cbe00000080ee3e3eff20b0223ec67c8bbf00000080ee3e3effe010843f78d22bbe00000080ee3e3effc0e45b3d64ee8cbf00000080ee3e3eff0000a836921d8dbf00000080ee3e3effd66e853f203968bd00000080ee3e3eff80da5bbd64ee8cbf00000080ee3e3eff689b853f0000a43600000080ee3e3effd66e853f6043683d00000080ee3e3eff20b022bec67c8bbf00000080ee3e3effe010843f10d52b3e00000080ee3e3eff107f85be38ab88bf00000080ee3e3effaa65813f90008d3e00000080ee3e3eff20acb7bec28b84bf00000080ee3e3eff20fd7a3fd4ffc13e00000080ee3e3eff689ce7be80617ebf00000080ee3e3eff98d8703f88a1f43e00000080ee3e3effe4830abf645871bf00000080ee3e3eff1c81643f7e4d123f00000080ee3e3effbcd51fbf982162bf00000080ee3e3eff6419563f09d2283f00000080ee3e3efffca033bfd0df50bf00000080ee3e3effe4c2453fb5b93d3f00000080ee3e3effe4c245bf10b93dbf00000080ee3e3efff8a0333f75e0503f00000080ee3e3eff661956bf64d128bf00000080ee3e3effbcd51f3f9521623f00000080ee3e3eff1c8164bfd84c12bf00000080ee3e3effe4830a3f0a59713f00000080ee3e3eff9ad870bf40a0f4be00000080ee3e3eff609ce73e22627e3f00000080ee3e3eff24fd7abf88fec1be00000080ee3e3eff68adb73e148c843f00000080ee3e3effaa6581bf48ff8cbe00000080ee3e3eff107f853e8aab883f00000080ee3e3effe11084bf78d22bbe00000080ee3e3eff20b0223e177d8b3f00000080ee3e3effd76e85bf203968bd00000080ee3e3eff689b85bf0000a43600000080ee3e3effc0e45b3db6ee8c3f00000080ee3e3effd76e85bf6043683d00000080ee3e3eff0000a836921d8d3f00000080ee3e3eff80da5bbdb6ee8c3f00000080ee3e3effe11084bf10d52b3e00000080ee3e3eff20b022be177d8b3f00000080ee3e3effaa6581bf90008d3e00000080ee3e3eff107f85be8aab883f00000080ee3e3eff24fd7abfd4ffc13e00000080ee3e3eff20acb7be148c843f00000080ee3e3eff9ad870bf88a1f43e00000080ee3e3eff689ce7be22627e3f00000080ee3e3eff1c8164bf7e4d123f00000080ee3e3effe4830abf0a59713f00000080ee3e3eff661956bf09d2283f00000080ee3e3effbcd51fbf9521623f00000080ee3e3effe4c245bfb5b93d3f00000080ee3e3efffca033bf75e0503f00000080ee3e3eff
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: -0}
+    m_Extent: {x: 1.0438051, y: 1.1024649, z: 0}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
+--- !u!114 &114606012521438594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363e9872ad27a4ca59c07d233fdf0023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _errors: 
+  _svgFile: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!--
+    Created with Inkscape (http://www.inkscape.org/) -->\r\n\r\n<svg\r\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n
+    \  xmlns:cc=\"http://creativecommons.org/ns#\"\r\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\r\n
+    \  xmlns:svg=\"http://www.w3.org/2000/svg\"\r\n   xmlns=\"http://www.w3.org/2000/svg\"\r\n
+    \  xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\r\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\r\n
+    \  width=\"512\"\r\n   height=\"512\"\r\n   viewBox=\"0 0 512.00001 512.00001\"\r\n
+    \  id=\"svg7311\"\r\n   version=\"1.1\"\r\n   inkscape:version=\"0.91 r13725\"\r\n
+    \  sodipodi:docname=\"head.svg\">\r\n  <defs\r\n     id=\"defs7313\" />\r\n  <sodipodi:namedview\r\n
+    \    id=\"base\"\r\n     pagecolor=\"#ffffff\"\r\n     bordercolor=\"#666666\"\r\n
+    \    borderopacity=\"0\"\r\n     inkscape:pageopacity=\"0.36862745\"\r\n     inkscape:pageshadow=\"2\"\r\n
+    \    inkscape:zoom=\"0.86549548\"\r\n     inkscape:cx=\"194.6258\"\r\n     inkscape:cy=\"330.53154\"\r\n
+    \    inkscape:document-units=\"px\"\r\n     inkscape:current-layer=\"layer1\"\r\n
+    \    showgrid=\"false\"\r\n     units=\"px\"\r\n     inkscape:window-width=\"1536\"\r\n
+    \    inkscape:window-height=\"801\"\r\n     inkscape:window-x=\"-8\"\r\n     inkscape:window-y=\"-8\"\r\n
+    \    inkscape:window-maximized=\"1\" />\r\n  <metadata\r\n     id=\"metadata7316\">\r\n
+    \   <rdf:RDF>\r\n      <cc:Work\r\n         rdf:about=\"\">\r\n        <dc:format>image/svg+xml</dc:format>\r\n
+    \       <dc:type\r\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"
+    />\r\n        <dc:title></dc:title>\r\n      </cc:Work>\r\n    </rdf:RDF>\r\n
+    \ </metadata>\r\n  <g\r\n     inkscape:label=\"Layer 1\"\r\n     inkscape:groupmode=\"layer\"\r\n
+    \    id=\"layer1\"\r\n     transform=\"translate(0,-540.36216)\">\r\n    <ellipse\r\n
+    \      style=\"opacity:1;fill:#ee3e3e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\r\n
+    \      id=\"path7859\"\r\n       cx=\"224.14905\"\r\n       cy=\"688.40881\"\r\n
+    \      rx=\"104.38024\"\r\n       ry=\"110.24646\" />\r\n  </g>\r\n</svg>\r\n"
+  _title: 
+  _description: 

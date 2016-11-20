@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: b8796cc1792e9084e91dad3019aea8c6
+timeCreated: 1479649021
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!--
+    Created with Inkscape (http://www.inkscape.org/) -->\r\n\r\n<svg\r\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n
+    \  xmlns:cc=\"http://creativecommons.org/ns#\"\r\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\r\n
+    \  xmlns:svg=\"http://www.w3.org/2000/svg\"\r\n   xmlns=\"http://www.w3.org/2000/svg\"\r\n
+    \  xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\r\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\r\n
+    \  width=\"512\"\r\n   height=\"512\"\r\n   viewBox=\"0 0 512.00001 512.00001\"\r\n
+    \  id=\"svg7311\"\r\n   version=\"1.1\"\r\n   inkscape:version=\"0.91 r13725\"\r\n
+    \  sodipodi:docname=\"head.svg\">\r\n  <defs\r\n     id=\"defs7313\" />\r\n  <sodipodi:namedview\r\n
+    \    id=\"base\"\r\n     pagecolor=\"#ffffff\"\r\n     bordercolor=\"#666666\"\r\n
+    \    borderopacity=\"0\"\r\n     inkscape:pageopacity=\"0.36862745\"\r\n     inkscape:pageshadow=\"2\"\r\n
+    \    inkscape:zoom=\"0.86549548\"\r\n     inkscape:cx=\"194.6258\"\r\n     inkscape:cy=\"330.53154\"\r\n
+    \    inkscape:document-units=\"px\"\r\n     inkscape:current-layer=\"layer1\"\r\n
+    \    showgrid=\"false\"\r\n     units=\"px\"\r\n     inkscape:window-width=\"1536\"\r\n
+    \    inkscape:window-height=\"801\"\r\n     inkscape:window-x=\"-8\"\r\n     inkscape:window-y=\"-8\"\r\n
+    \    inkscape:window-maximized=\"1\" />\r\n  <metadata\r\n     id=\"metadata7316\">\r\n
+    \   <rdf:RDF>\r\n      <cc:Work\r\n         rdf:about=\"\">\r\n        <dc:format>image/svg+xml</dc:format>\r\n
+    \       <dc:type\r\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"
+    />\r\n        <dc:title></dc:title>\r\n      </cc:Work>\r\n    </rdf:RDF>\r\n
+    \ </metadata>\r\n  <g\r\n     inkscape:label=\"Layer 1\"\r\n     inkscape:groupmode=\"layer\"\r\n
+    \    id=\"layer1\"\r\n     transform=\"translate(0,-540.36216)\">\r\n    <ellipse\r\n
+    \      style=\"opacity:1;fill:#ee3e3e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\"\r\n
+    \      id=\"path7859\"\r\n       cx=\"224.14905\"\r\n       cy=\"688.40881\"\r\n
+    \      rx=\"104.38024\"\r\n       ry=\"110.24646\" />\r\n  </g>\r\n</svg>\r\n"
+  assetBundleName: 
+  assetBundleVariant: 

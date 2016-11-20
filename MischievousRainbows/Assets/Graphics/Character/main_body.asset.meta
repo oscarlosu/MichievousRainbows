@@ -1,0 +1,39 @@
+fileFormatVersion: 2
+guid: d251844490da9fa439f5ade9df45b550
+timeCreated: 1479649022
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!--
+    Created with Inkscape (http://www.inkscape.org/) -->\r\n\r\n<svg\r\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n
+    \  xmlns:cc=\"http://creativecommons.org/ns#\"\r\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\r\n
+    \  xmlns:svg=\"http://www.w3.org/2000/svg\"\r\n   xmlns=\"http://www.w3.org/2000/svg\"\r\n
+    \  xmlns:sodipodi=\"http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd\"\r\n   xmlns:inkscape=\"http://www.inkscape.org/namespaces/inkscape\"\r\n
+    \  width=\"512\"\r\n   height=\"512\"\r\n   viewBox=\"0 0 512.00001 512.00001\"\r\n
+    \  id=\"svg7311\"\r\n   version=\"1.1\"\r\n   inkscape:version=\"0.91 r13725\"\r\n
+    \  sodipodi:docname=\"main_body.svg\">\r\n  <defs\r\n     id=\"defs7313\" />\r\n
+    \ <sodipodi:namedview\r\n     id=\"base\"\r\n     pagecolor=\"#ffffff\"\r\n     bordercolor=\"#666666\"\r\n
+    \    borderopacity=\"0\"\r\n     inkscape:pageopacity=\"0.36862745\"\r\n     inkscape:pageshadow=\"2\"\r\n
+    \    inkscape:zoom=\"0.86549548\"\r\n     inkscape:cx=\"194.6258\"\r\n     inkscape:cy=\"330.53154\"\r\n
+    \    inkscape:document-units=\"px\"\r\n     inkscape:current-layer=\"layer1\"\r\n
+    \    showgrid=\"false\"\r\n     units=\"px\"\r\n     inkscape:window-width=\"1536\"\r\n
+    \    inkscape:window-height=\"801\"\r\n     inkscape:window-x=\"-8\"\r\n     inkscape:window-y=\"-8\"\r\n
+    \    inkscape:window-maximized=\"1\" />\r\n  <metadata\r\n     id=\"metadata7316\">\r\n
+    \   <rdf:RDF>\r\n      <cc:Work\r\n         rdf:about=\"\">\r\n        <dc:format>image/svg+xml</dc:format>\r\n
+    \       <dc:type\r\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"
+    />\r\n        <dc:title></dc:title>\r\n      </cc:Work>\r\n    </rdf:RDF>\r\n
+    \ </metadata>\r\n  <g\r\n     inkscape:label=\"Layer 1\"\r\n     inkscape:groupmode=\"layer\"\r\n
+    \    id=\"layer1\"\r\n     transform=\"translate(0,-540.36216)\">\r\n    <path\r\n
+    \      style=\"fill:#03374e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1\"\r\n
+    \      d=\"m 261.33958,651.50802 c 12.3844,13.15015 20.56939,20.72549 24.97307,26.19197
+    4.54158,5.63766 11.48094,13.86822 20.18974,29.00391 5.24621,9.22339 7.26058,13.24031
+    8.96342,16.73929 1.70283,3.49898 3.27404,7.10971 4.93527,12.37225 1.5069,4.77367
+    3.8026,10.3462 5.37706,16.06706 1.57446,5.72086 2.62578,11.55096 3.43278,16.16263
+    6.02087,34.40666 0.10207,61.50633 -2.13432,78.25723 -8.02475,48.54823 -56.95764,149.90081
+    -117.10504,201.01184 -18.49618,-52.51663 -30.63886,-81.57499 -45.56927,-118.29133
+    -7.68099,-20.6686 -22.97933,-47.35587 -38.43946,-108.62805 -6.65282,-26.36668
+    -11.34895,-62.70664 4.45845,-100.78679 13.68947,-29.26315 10.20252,-29.11536 23.35714,-48.79518
+    35.80086,12.50776 68.8643,4.70292 107.56116,-19.30483 z\"\r\n       id=\"path7861\"\r\n
+    \      inkscape:connector-curvature=\"0\"\r\n       sodipodi:nodetypes=\"cscsssscccsccc\"
+    />\r\n  </g>\r\n</svg>\r\n"
+  assetBundleName: 
+  assetBundleVariant: 
