@@ -10,13 +10,13 @@ public class RainbowAnim : MonoBehaviour {
     float lineWidth;
 
     [SerializeField]
-    EdgeCollider2D lowerArcCol;
+    public EdgeCollider2D LowerArcCol;
     [SerializeField]
-    EdgeCollider2D upperArcCol;
+    public EdgeCollider2D UpperArcCol;
     [SerializeField]
-    EdgeCollider2D originCol;
+    public EdgeCollider2D OriginCol;
     [SerializeField]
-    EdgeCollider2D endCol;
+    public EdgeCollider2D EndCol;
 
     [SerializeField]
     int nPointsColPerDistUnit;
@@ -50,10 +50,10 @@ public class RainbowAnim : MonoBehaviour {
     private void updateLineRend(float target) {
         // Early return if target is zero setting clearing colliders and renderers
         if(Mathf.Approximately(target, 0)) {
-            upperArcCol.points = new Vector2[0];
-            lowerArcCol.points = new Vector2[0];
-            originCol.points = new Vector2[0];
-            endCol.points = new Vector2[0];
+            UpperArcCol.points = new Vector2[0];
+            LowerArcCol.points = new Vector2[0];
+            OriginCol.points = new Vector2[0];
+            EndCol.points = new Vector2[0];
             foreach (RainbowStripe s in stripes) {
                 s.Rend.numPositions = 0;
             }
@@ -75,17 +75,17 @@ public class RainbowAnim : MonoBehaviour {
             pointsLowerArc[i].x *= sign;
             x += inc;
         }
-        upperArcCol.points = pointsUpperArc;
-        lowerArcCol.points = pointsLowerArc;
+        UpperArcCol.points = pointsUpperArc;
+        LowerArcCol.points = pointsLowerArc;
         // Origin and end
         Vector2[] pointsOrigin = new Vector2[2];
         pointsOrigin[0] = pointsUpperArc[0];
         pointsOrigin[1] = pointsLowerArc[0];
-        originCol.points = pointsOrigin;
+        OriginCol.points = pointsOrigin;
         Vector2[] pointsEnd = new Vector2[2];
         pointsEnd[0] = pointsUpperArc[pointsUpperArc.Length - 1];
         pointsEnd[1] = pointsLowerArc[pointsLowerArc.Length - 1];
-        endCol.points = pointsEnd;
+        EndCol.points = pointsEnd;
 
 
 
@@ -103,17 +103,17 @@ public class RainbowAnim : MonoBehaviour {
         }
         // Calculate orthogonal directions along rainbow center
         Vector2[] orthogonalDir = new Vector2[nPoints + 1];
-        Vector2 dir = originCol.points[1] - originCol.points[0];
-        orthogonalDir[0] = sign * dir.normalized;
+        Vector2 dir = OriginCol.points[1] - OriginCol.points[0];
+        orthogonalDir[0] = dir.normalized;
         //Debug.DrawLine(referencePoints[0], referencePoints[0] + orthogonalDir[0], Color.red, 10f);
         for (int i = 1; i < referencePoints.Length - 1; ++i) {
             dir = referencePoints[i + 1] - referencePoints[i];
             dir = - new Vector2(-dir.y, dir.x);
-            orthogonalDir[i] = dir.normalized;
+            orthogonalDir[i] = sign * dir.normalized;
             //Debug.DrawLine(referencePoints[i], referencePoints[i] + orthogonalDir[i], Color.red, 10f);
         }
-        dir = endCol.points[1] - endCol.points[0];
-        orthogonalDir[orthogonalDir.Length - 1] = sign * dir.normalized;
+        dir = EndCol.points[1] - EndCol.points[0];
+        orthogonalDir[orthogonalDir.Length - 1] = dir.normalized;
         //Debug.DrawLine(referencePoints[referencePoints.Length - 1], referencePoints[referencePoints.Length - 1] + orthogonalDir[referencePoints.Length - 1], Color.red, 10f);
         float coveredWidth = 0;
         for (int i = 0; i < stripes.Count; ++i) {
