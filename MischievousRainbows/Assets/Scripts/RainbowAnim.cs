@@ -31,9 +31,9 @@ public class RainbowAnim : MonoBehaviour {
     float target;
 
     [SerializeField]
-    float height = 1;
+    float curveHeight = 1;
     [SerializeField]
-    float width = 1;
+    float curveWidth = 1;
 
     [SerializeField]
     bool offsetOrigin = true;
@@ -50,7 +50,7 @@ public class RainbowAnim : MonoBehaviour {
         // Update line width
         lineRend.widthMultiplier = lineWidth;
 
-        float xLength = Mathf.Abs(target * width);
+        float xLength = Mathf.Abs(target * curveWidth);
         float sign = Mathf.Sign(target);
         int nPoints = (int)Mathf.Ceil(xLength * nPointsLinePerDistUnit);
         // Create points for curve section
@@ -65,32 +65,47 @@ public class RainbowAnim : MonoBehaviour {
 
 
         // Create points for colliders
+        // Lower and upper arcs
         nPoints = (int)Mathf.Ceil(xLength * nPointsColPerDistUnit);
         x = 0;
         inc = xLength / nPoints;
-        float hWidth = width / 2;
-        Vector2[] points = new Vector2[nPoints + 1];
-        for (int i = 0; i < nPoints; ++i) {
-            points[i] = ParallelCurve(x, offsetOrigin, hWidth);
+        float hLineWidth = lineWidth / 2;
+        Vector2[] pointsLowerArc = new Vector2[nPoints + 1];
+        Vector2[] pointsUpperArc = new Vector2[nPoints + 1];
+        for (int i = 0; i <= nPoints; ++i) {
+            pointsUpperArc[i] = ParallelCurve(x, offsetOrigin, -hLineWidth);
+            pointsUpperArc[i].x *= sign;
+            pointsLowerArc[i] = ParallelCurve(x, offsetOrigin, hLineWidth);
+            pointsLowerArc[i].x *= sign;
             x += inc;
         }
-        upperArcCol.points = points;
+        upperArcCol.points = pointsUpperArc;
+        lowerArcCol.points = pointsLowerArc;
+        // Origin and end
+        Vector2[] pointsOrigin = new Vector2[2];
+        pointsOrigin[0] = pointsUpperArc[0];
+        pointsOrigin[1] = pointsLowerArc[0];
+        originCol.points = pointsOrigin;
+        Vector2[] pointsEnd = new Vector2[2];
+        pointsEnd[0] = pointsUpperArc[pointsUpperArc.Length - 1];
+        pointsEnd[1] = pointsLowerArc[pointsLowerArc.Length - 1];
+        endCol.points = pointsEnd;
     }
 
     private float Curve(float x, bool offsetOrigin) {
-        float xOffset = offsetOrigin ? width : 0;
+        float xOffset = offsetOrigin ? curveWidth : 0;
         float yOffset = offsetOrigin ? 1 : 0;
-        return height * (yOffset - Mathf.Pow((x - xOffset) / width, 2));
+        return curveHeight * (yOffset - Mathf.Pow((x - xOffset) / curveWidth, 2));
     }
 
     private Vector2 ParallelCurve(float t, bool offsetOrigin, float distance) {
-        float xOffset = offsetOrigin ? width : 0;
+        float xOffset = offsetOrigin ? curveWidth : 0;
         float yOffset = offsetOrigin ? 1 : 0;
 
         float x = t;
         float y = Curve(t, offsetOrigin);
         float dx = 1;
-        float dy = -2 * (t - xOffset) / width;
+        float dy = -2 * (t - xOffset) / curveWidth;
 
         float denominator = Mathf.Sqrt(dx * dx + dy * dy);
 
