@@ -100,11 +100,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4606371262767684, guid: 8266b4a42ce2aee48a5e64cff8233f1c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -5.87
+      value: 3.04
       objectReference: {fileID: 0}
     - target: {fileID: 4606371262767684, guid: 8266b4a42ce2aee48a5e64cff8233f1c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 8.73
+      value: 3.12
       objectReference: {fileID: 0}
     - target: {fileID: 4606371262767684, guid: 8266b4a42ce2aee48a5e64cff8233f1c, type: 2}
       propertyPath: m_LocalPosition.z
@@ -185,7 +185,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4894827669220700, guid: 09aa489f2384f844f9ac65a9ac7cf91e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.62
+      value: -3.19
       objectReference: {fileID: 0}
     - target: {fileID: 4894827669220700, guid: 09aa489f2384f844f9ac65a9ac7cf91e, type: 2}
       propertyPath: m_LocalPosition.z
@@ -270,6 +270,16 @@ Prefab:
     - target: {fileID: 1149081942245672, guid: 6414bc3c8da89a64282eee59d9591eba, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 114835277406832088, guid: 6414bc3c8da89a64282eee59d9591eba,
+        type: 2}
+      propertyPath: _sortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23323482558868750, guid: 6414bc3c8da89a64282eee59d9591eba,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6414bc3c8da89a64282eee59d9591eba, type: 2}

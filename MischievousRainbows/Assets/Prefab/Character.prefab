@@ -38,7 +38,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4606371262767684}
   - component: {fileID: 50626341022099752}
-  - component: {fileID: 70628142586569736}
+  - component: {fileID: 114426626253132968}
+  - component: {fileID: 60480823037635878}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -84,7 +85,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1497368352103646}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.87, y: 8.73, z: 0}
+  m_LocalPosition: {x: 3.04, y: 3.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4825223903977578}
@@ -201,8 +202,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &70628142586569736
-CapsuleCollider2D:
+--- !u!60 &60480823037635878
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -212,9 +213,39 @@ CapsuleCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.027522862, y: 0.9490864}
-  m_Size: {x: 2.1513886, y: 5.843153}
-  m_Direction: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.9614296, y: 1.3059149}
+      - {x: -0.76973987, y: 1.7659521}
+      - {x: -1.1692265, y: 2.1388555}
+      - {x: -1.391156, y: 2.8683267}
+      - {x: -1.1007551, y: 3.5870852}
+      - {x: -0.44168496, y: 3.87497}
+      - {x: 0.34067988, y: 3.6651707}
+      - {x: 0.7181678, y: 2.8547306}
+      - {x: 0.39530134, y: 1.9874282}
+      - {x: 0.8196759, y: 1.3768706}
+      - {x: 1.0696235, y: 0.43573213}
+      - {x: 0.68569064, y: -0.84272075}
+      - {x: -0.156878, y: -1.978357}
+      - {x: -0.8694396, y: -0.20789862}
+      - {x: -1.055455, y: 0.6676042}
+--- !u!114 &114426626253132968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1497368352103646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de90f22fd03ee04984d894f2edcab1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tolerance: 0.01
+  baseSpeed: 5
+  gravity: 9.8
+  State: 2
 --- !u!114 &114705576185190330
 MonoBehaviour:
   m_ObjectHideFlags: 1
